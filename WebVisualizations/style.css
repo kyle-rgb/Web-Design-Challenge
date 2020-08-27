@@ -20,8 +20,19 @@
   margin-bottom: 30px;
 }
 
+.navbar{
+  background: rgba(102,51,153,0.65);
+}
+
 .skyblue {
   background: deepskyblue;
+  min-width: 300px;
+  min-height: 300px;
+  align-content: center;
+}
+
+.purp {
+  background:  rgba(102,51,153,0.37);
   min-width: 300px;
   min-height: 300px;
   align-content: center;
@@ -95,7 +106,7 @@ h2{
   max-block-size: 200px;
   padding: 0px;
   align-self: center;
-  border: 5px solid salmon;
+  border: 5px solid  rgba(102,51,153,0.67);
 }
 
 .artimage{
@@ -117,7 +128,7 @@ table {
 }
 
 .red {
-  background: indianred;
+  background:  rgba(102,51,153,0.67);
 }
 
 #main {
