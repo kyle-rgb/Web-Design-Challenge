@@ -23,6 +23,11 @@ img{
   padding: 5px;
 }
 
+.active{
+  border-block: 5px;
+  border-block-color: salmon;
+}
+
 .wrap{
   float: right;
   margin: 5px;
@@ -37,6 +42,14 @@ h1{
   max-block-size: 200px;
   align-self: center;
 }
+
+#samplesone{
+  max-block-size: 200px;
+  padding: 0px;
+  align-self: center;
+  border: 5px solid salmon;
+}
+
 
 
 
