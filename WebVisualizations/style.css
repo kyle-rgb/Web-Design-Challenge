@@ -7,6 +7,19 @@
   align-content: flex-start;
 }
 
+.boxxx {
+  min-height: 800px;
+  padding: 0px;
+  margin: 0px;
+  font-weight: 400;
+  color: #fff;
+  align-content: center;
+}
+
+.row{
+  margin-bottom: 30px;
+}
+
 .skyblue {
   background: deepskyblue;
   min-width: 300px;
@@ -14,11 +27,23 @@
   align-content: center;
 }
 
+p{
+  margin-top: 0px;
+}
+
 .skyblueyoo {
   background: deepskyblue;
-  min-width: 1000px;
+  min-width: 1200px;
   min-height: 900px;
   align-content: center;
+}
+
+.skyblueyood {
+  background: deepskyblue;
+  min-width: 1200px;
+  min-height: 900px;
+  align-content: center;
+  margin-top: 20px;
 }
 
 #sitetitle{
@@ -39,6 +64,7 @@ h4{
 img{
   max-block-size: 400px;
   padding: 2px;
+
 }
 
 .active{
@@ -70,6 +96,10 @@ h2{
   padding: 0px;
   align-self: center;
   border: 5px solid salmon;
+}
+
+.artimage{
+  margin-left: 55px;
 }
 
 table {
@@ -126,6 +156,7 @@ table {
     min-width: 300px;
     min-height: 900px;
     align-content: center;
+    margin-left: 2px;
   }
 
 }
@@ -146,5 +177,21 @@ b{
   #sitetitle{
     text-align-last: left;
     margin: 0px;
+  }
+
+}
+
+@media(max-width: 1200px){
+  .artimage{
+    margin-left: 0px;
+  }
+
+}
+
+@media (max-width: 767px){
+  #hammy{
+    visibility: unset;
+    align-self: flex-end;
+    margin: 14px;
   }
 }
