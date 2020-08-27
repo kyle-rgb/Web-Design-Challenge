@@ -14,13 +14,20 @@
   align-content: center;
 }
 
+.skyblueyoo {
+  background: deepskyblue;
+  min-width: 1000px;
+  min-height: 900px;
+  align-content: center;
+}
+
 #sitetitle{
   color:white;
 }
 
 img{
   max-block-size: 400px;
-  padding: 5px;
+  padding: 2px;
 }
 
 .active{
@@ -35,6 +42,10 @@ img{
 }
 
 h1{
+  text-align: center;
+}
+
+h2{
   text-align: center;
 }
 
@@ -96,4 +107,11 @@ h1{
     align-self: flex-end;
     margin: 14px;
   }
+  .skyblueyoo {
+    background: deepskyblue;
+    min-width: 300px;
+    min-height: 900px;
+    align-content: center;
+  }
+  
 }
